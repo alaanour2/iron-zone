@@ -1,0 +1,343 @@
+﻿:root {
+  --bg: #0A0A0A;
+  --surface: #171717;
+  --surface-light: #222222;
+  --bg-glass: rgba(10, 10, 10, 0.85);
+  --section-alt-from: #131313;
+  --section-alt-to: #0C0C0C;
+  --accent: #B7FF2A;
+  --accent-strong: #9ef000;
+  --accent-text: #B7FF2A;
+  --accent-ink: #08110A;
+  --accent-soft: rgba(183, 255, 42, 0.1);
+  --accent-border: rgba(183, 255, 42, 0.55);
+  --glow: 0 0 28px rgba(183, 255, 42, 0.45);
+  --danger: #ff6b6b;
+  --text: #F5F5F5;
+  --text-soft: #C6C6C6;
+  --muted: #A3A3A3;
+  --border: #303030;
+  --shadow: rgba(0, 0, 0, 0.75);
+  --radius: 8px;
+  --transition: 0.2s ease;
+  --cursor-default: url('../assets/icons/cursor-default.svg');
+  --cursor-pointer: url('../assets/icons/cursor-pointer.svg');
+  color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  --bg: #F4F5F0;
+  --surface: #FFFFFF;
+  --surface-light: #ECEEE5;
+  --bg-glass: rgba(244, 245, 240, 0.88);
+  --section-alt-from: #EDEFE6;
+  --section-alt-to: #F6F7F2;
+  --accent: #B7FF2A;
+  --accent-strong: #C9FF5C;
+  --accent-text: #3F6B00;
+  --accent-ink: #08110A;
+  --accent-soft: rgba(63, 107, 0, 0.1);
+  --accent-border: rgba(63, 107, 0, 0.45);
+  --glow: none;
+  --danger: #C0392B;
+  --text: #14160F;
+  --text-soft: #3E4237;
+  --muted: #555A4C;
+  --border: #D8DACF;
+  --shadow: rgba(20, 22, 15, 0.14);
+  color-scheme: light;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  cursor: url('../assets/icons/cursor-default.svg') 3 1, auto;
+}
+
+a,
+button,
+summary,
+select,
+label,
+.btn,
+.nav__toggle,
+.nav__link,
+.back-to-top,
+[role='button'] {
+  cursor: url('../assets/icons/cursor-pointer.svg') 16 16, pointer;
+}
+
+input,
+textarea {
+  cursor: text;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  cursor: url('../assets/icons/cursor-pointer.svg') 16 16, pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--accent-text);
+  outline-offset: 2px;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 76vh;
+  padding: 6rem 0 5rem;
+  color: #F5F5F5;
+  background-color: #0A0A0A;
+  background-image:
+    linear-gradient(90deg, rgba(10, 10, 10, 0.94) 0%, rgba(10, 10, 10, 0.72) 38%, rgba(10, 10, 10, 0.18) 72%, rgba(10, 10, 10, 0.05) 100%),
+    linear-gradient(180deg, rgba(10, 10, 10, 0.28) 0%, rgba(10, 10, 10, 0) 35%, rgba(10, 10, 10, 0.72) 100%),
+    url('../assets/images/hero-cover.jpg');
+  background-size: cover;
+  background-position: center 38%;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid rgba(183, 255, 42, 0.5);
+  box-shadow: 0 22px 60px -30px rgba(183, 255, 42, 0.6);
+  overflow: hidden;
+}
+
+.hero__eyebrow {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: var(--accent);
+  font-family: 'Oswald', 'Bebas Neue', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  font-size: clamp(2.75rem, 7vw, 5.25rem);
+  margin-bottom: 1rem;
+  line-height: 1;
+  max-width: 16ch;
+  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.65);
+}
+
+.hero__subtitle {
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  color: #D6D6D6;
+  margin-bottom: 2rem;
+  max-width: 620px;
+}
+
+.hero .btn--ghost {
+  color: #F5F5F5;
+  border-color: var(--accent);
+}
+
+.hero__actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0;
+  margin-top: 3rem;
+  background: linear-gradient(180deg, var(--surface-light), var(--surface));
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.stat {
+  position: relative;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-right: 1px solid var(--border);
+  transition: background var(--transition);
+}
+
+.stat:last-child {
+  border-right: none;
+}
+
+.stat:hover,
+.stat:focus-within {
+  background: var(--accent-soft);
+}
+
+.stat__number {
+  font-family: 'Oswald', 'Bebas Neue', sans-serif;
+  font-size: clamp(2.25rem, 4vw, 3rem);
+  line-height: 1;
+  color: var(--accent-text);
+  display: block;
+  text-shadow: var(--glow);
+}
+
+.stat__label {
+  color: var(--muted);
+  font-size: 0.875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .card:hover,
+  .card:focus-within,
+  .btn:hover,
+  .btn:focus-visible {
+    transform: none;
+  }
+}
+
+/* Arabic / RTL support */
+[dir='rtl'] body {
+  font-family: 'Tajawal', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+[dir='rtl'] h1,
+[dir='rtl'] h2,
+[dir='rtl'] h3,
+[dir='rtl'] h4,
+[dir='rtl'] h5,
+[dir='rtl'] h6,
+[dir='rtl'] .nav__logo,
+[dir='rtl'] .hero__eyebrow,
+[dir='rtl'] .hero__title,
+[dir='rtl'] .section__eyebrow,
+[dir='rtl'] .stat__number,
+[dir='rtl'] .card__price,
+[dir='rtl'] .card__badge,
+[dir='rtl'] .footer__title,
+[dir='rtl'] .btn {
+  font-family: 'Cairo', 'Oswald', 'Bebas Neue', 'Inter', sans-serif;
+}
+
+[dir='rtl'] button,
+[dir='rtl'] input,
+[dir='rtl'] select,
+[dir='rtl'] textarea,
+[dir='rtl'] .card__price span {
+  font-family: 'Tajawal', 'Inter', sans-serif;
+}
+
+[dir='rtl'] .nav__logo,
+[dir='rtl'] .hero__eyebrow,
+[dir='rtl'] .section__eyebrow,
+[dir='rtl'] .stat__label,
+[dir='rtl'] .card__badge {
+  letter-spacing: normal;
+}
+
+[dir='rtl'] .hero {
+  background-image:
+    linear-gradient(270deg, rgba(10, 10, 10, 0.94) 0%, rgba(10, 10, 10, 0.72) 38%, rgba(10, 10, 10, 0.18) 72%, rgba(10, 10, 10, 0.05) 100%),
+    linear-gradient(180deg, rgba(10, 10, 10, 0.28) 0%, rgba(10, 10, 10, 0) 35%, rgba(10, 10, 10, 0.72) 100%),
+    url('../assets/images/hero-cover.jpg');
+  background-position: center 38%;
+}
+
+[dir='rtl'] .hero__title {
+  max-width: 20ch;
+}
+
+[dir='rtl'] .nav__link.btn {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+
+[dir='rtl'] .stat {
+  border-right: none;
+  border-left: 1px solid var(--border);
+}
+
+[dir='rtl'] .stat:last-child {
+  border-left: none;
+}
+
+[dir='rtl'] .card__badge {
+  right: auto;
+  left: 1.25rem;
+}
+
+[dir='rtl'] .card__price span {
+  margin-left: 0;
+  margin-right: 0.25rem;
+}
+
+[dir='rtl'] .btn--arrow::after {
+  content: '\2190';
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+
+[dir='rtl'] .btn--arrow:hover::after,
+[dir='rtl'] .btn--arrow:focus-visible::after {
+  transform: translateX(-4px);
+}
+
+[dir='rtl'] .skip-link {
+  left: auto;
+  right: -9999px;
+  border-radius: 0 0 0 var(--radius);
+}
+
+[dir='rtl'] .skip-link:focus {
+  left: auto;
+  right: 0;
+}
+
+[dir='rtl'] .back-to-top {
+  right: auto;
+  left: 1rem;
+}

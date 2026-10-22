@@ -1,0 +1,711 @@
+{
+  "controls": {
+    "themeToLight": "Switch to light theme",
+    "themeToDark": "Switch to dark theme",
+    "langGroupLabel": "Language",
+    "langNameEn": "English",
+    "langNameAr": "Arabic"
+  },
+  "skip": "Skip to main content",
+  "whatsapp": {
+    "label": "Chat with IRON ZONE on WhatsApp"
+  },
+  "nav": {
+    "mainNav": "Main navigation",
+    "home": "Home",
+    "membership": "Membership",
+    "trainers": "Trainers",
+    "classes": "Classes",
+    "contact": "Contact",
+    "joinNow": "Join Now",
+    "menu": "Menu",
+    "toggleMenu": "Toggle navigation menu",
+    "workoutLog": "Workout Log"
+  },
+  "footer": {
+    "tagline": "TRAIN HARD. LIVE STRONG.",
+    "subtitle": "Premium Fitness & Personal Training",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "location": "Location: Cairo, Egypt",
+    "phone": "Phone: 01068867161",
+    "email": "Email: basmanour103@gmail.com",
+    "rights": "IRON ZONE. All rights reserved."
+  },
+  "meta": {
+    "indexTitle": "IRON ZONE - Train Hard. Live Strong.",
+    "indexDescription": "IRON ZONE - Premium Fitness & Personal Training",
+    "membershipTitle": "IRON ZONE - Membership",
+    "membershipDescription": "IRON ZONE - Membership Plans",
+    "trainersTitle": "IRON ZONE - Trainers",
+    "trainersDescription": "IRON ZONE - Our Trainers",
+    "classesTitle": "IRON ZONE - Classes",
+    "classesDescription": "IRON ZONE - Workout Classes",
+    "contactTitle": "IRON ZONE - Contact",
+    "contactDescription": "IRON ZONE - Contact Us",
+    "joinTitle": "IRON ZONE - Join Us",
+    "joinDescription": "IRON ZONE - Membership Inquiry",
+    "workoutTitle": "IRON ZONE - Workout Log",
+    "workoutDescription": "IRON ZONE - Track your workouts and see your progress"
+  },
+  "common": {
+    "perMonth": "/mo",
+    "egp": "EGP",
+    "viewPlans": "View Plans",
+    "mostPopular": "Most Popular",
+    "choosePlan": "Choose Plan",
+    "joinNow": "JOIN NOW",
+    "contactUs": "CONTACT US",
+    "viewAllTrainers": "View All Trainers",
+    "yes": "Yes",
+    "no": "No",
+    "fiveStars": "★★★★★"
+  },
+  "index": {
+    "heroEyebrow": "YOUR STRONGER SELF STARTS HERE",
+    "heroTitle": "PUSH YOUR LIMITS.",
+    "heroSubtitle": "Train with purpose, build strength, and make every session count.",
+    "heroJoin": "JOIN NOW",
+    "heroExplore": "EXPLORE MEMBERSHIPS",
+    "introEyebrow": "Welcome",
+    "introTitle": "INTRODUCING IRON ZONE",
+    "introText": "IRON ZONE is a premium fitness and personal training facility built around three simple ideas: serious equipment, certified coaches, and a plan for every member. Whether you are setting foot on the gym floor for the first time or chasing a new personal record, the space and the coaching are designed so that every single session counts.",
+    "introText2": "The floor covers the full spectrum of strength work: free-weight platforms for barbell lifts, machine circuits for hypertrophy, dedicated cardio and functional zones, and a studio that hosts group classes throughout the week. Equipment is chosen for reliability rather than novelty, so the tools you depend on are always calibrated, maintained, and ready to use.",
+    "introText3": "Every membership starts with an onboarding session. A coach reviews your goals, your movement history, and the time you can realistically give each week, then builds a training split you can actually sustain. From that point the plan evolves with your progress - through personal training, small-group classes, or self-directed sessions with our coaches on hand for technique checks and programming questions.",
+    "introAlt": "Members training on the IRON ZONE gym floor",
+    "benefitsEyebrow": "What We Offer",
+    "benefitsTitle": "TRAINING BENEFITS",
+    "benefitsIntro": "Training benefits are not a list of miracles. What follows are the results of a well-equipped floor, a plan you can follow, and coaches who tell you the truth about your numbers - measured over months, not weekends.",
+    "benefit1Title": "Strength Training",
+    "benefit1Text": "Progressive barbell and machine work that builds usable strength and adds lean muscle over months rather than weeks. Loads and rep ranges are set to match the level you are actually at today.",
+    "benefit1Alt": "Athlete lifting weights during a strength session",
+    "benefit2Title": "Personal Coaching",
+    "benefit2Text": "One coach, one written plan, and honest correction on the lifts that matter. The hour goes into technique and programme adjustments, not into empty encouragement.",
+    "benefit2Alt": "Personal trainer coaching a member one-on-one",
+    "benefit3Title": "Group Classes",
+    "benefit3Text": "Coach-led sessions in a small group. This is often the practical middle ground: the structure of a class, with just enough attention to correct your form as you go.",
+    "benefit3Alt": "High-energy group fitness class in progress",
+    "benefit4Title": "Cardio & Endurance",
+    "benefit4Text": "Steady zone-based cardio and circuit work that builds a base your body can actually hold on to - and that shortens the recovery time between the heavier sessions.",
+    "benefit4Alt": "Member on a cardio machine during a conditioning session",
+    "benefit5Title": "Mobility & Flexibility",
+    "benefit5Text": "Warm-ups, mobility work, and assisted stretching. Unglamorous, but it is the habit that keeps people training for years instead of months.",
+    "benefit5Alt": "Member stretching on a mat during a mobility class",
+    "benefit6Title": "Functional Training",
+    "benefit6Text": "Carrying, pushing, pulling, and rotating with loads that match daily life - the part of fitness that shows up outside the gym, on stairs, with a heavy bag, or after a long day at a desk.",
+    "benefit6Alt": "Member carrying a weight during a functional training circuit",
+    "benefitsNote": "Results are easier to keep when you can see them, so every membership comes with a workout log that records your sessions locally in your browser - you and your coach can compare weeks instead of guessing.",
+    "benefitsLogLink": "Open Your Workout Log",
+    "statsEyebrow": "By The Numbers",
+    "statsTitle": "GYM STATS",
+    "statsNote": "*Placeholder statistics until verified",
+    "stat1Label": "Active Members",
+    "stat2Label": "Expert Trainers",
+    "stat3Label": "Classes Weekly",
+    "plansEyebrow": "Membership",
+    "plansTitle": "FEATURED MEMBERSHIP PLANS",
+    "planStarterName": "Starter",
+    "planStarterText": "Perfect for beginners starting their fitness journey.",
+    "planStarterF1": "Access to gym floor",
+    "planStarterF2": "Basic equipment",
+    "planStarterF3": "Locker access",
+    "planProName": "Pro",
+    "planProText": "Ideal for regular gym-goers looking for more benefits.",
+    "planProF1": "All Starter features",
+    "planProF2": "Group classes",
+    "planProF3": "Priority booking",
+    "planEliteName": "Elite",
+    "planEliteText": "Complete package with personal training included.",
+    "planEliteF1": "All Pro features",
+    "planEliteF2": "Personal training sessions",
+    "planEliteF3": "Nutrition guidance",
+    "trainersEyebrow": "Meet The Team",
+    "trainersTitle": "FEATURED TRAINERS",
+    "trainer1Name": "Ahmed Hassan",
+    "trainer1Role": "Strength & Conditioning",
+    "trainer1Bio": "Certified trainer with 8+ years experience.",
+    "trainer1Alt": "Ahmed Hassan, strength and conditioning coach",
+    "trainer2Name": "Mariam Adel",
+    "trainer2Role": "HIIT & Cardio",
+    "trainer2Bio": "Specialized in high-intensity training programs.",
+    "trainer2Alt": "Mariam Adel, HIIT and cardio coach",
+    "trainer3Name": "Mahmoud Said",
+    "trainer3Role": "Powerlifting",
+    "trainer3Bio": "Competitive powerlifter with proven results.",
+    "trainer3Alt": "Mahmoud Said, powerlifting coach",
+    "ctaEyebrow": "Get Started",
+    "ctaTitle": "READY TO START?",
+    "ctaText": "Join IRON ZONE today and take your fitness to the next level.",
+    "ctaJoin": "JOIN NOW",
+    "ctaContact": "CONTACT US",
+    "testimonialsEyebrow": "Success Stories",
+    "testimonialsTitle": "WHAT MEMBERS SAY",
+    "testimonialsNote": "*Sample testimonials for demonstration purposes",
+    "testimonial1Rating": "5 out of 5",
+    "testimonial1Quote": "I walked in not knowing a single exercise. The coaches wrote me a plan, and three months later I am lifting more than I expected.",
+    "testimonial1Name": "Mona Hassan",
+    "testimonial1Meta": "Pro member since 2024",
+    "testimonial2Rating": "5 out of 5",
+    "testimonial2Quote": "The early morning classes changed my whole routine. The timetable is easy to follow and the trainers actually remember your name.",
+    "testimonial2Name": "Karim Adel",
+    "testimonial2Meta": "Elite member since 2023",
+    "testimonial3Rating": "5 out of 5",
+    "testimonial3Quote": "I started tracking my sessions in the workout log. Seeing the numbers climb is what kept me coming back when motivation dropped.",
+    "testimonial3Name": "Salma Nabil",
+    "testimonial3Meta": "Starter member since 2025"
+  },
+  "membership": {
+    "eyebrow": "Membership",
+    "title": "Membership Plans",
+    "note": "*Prices in Egyptian pounds (EGP) — sample/demo content until verified",
+    "starterName": "Starter",
+    "starterF1": "Gym floor access",
+    "starterF2": "Basic equipment",
+    "starterF3": "Locker access",
+    "proName": "Pro",
+    "proF1": "All Starter features",
+    "proF2": "Group classes",
+    "proF3": "Priority booking",
+    "eliteName": "Elite",
+    "eliteF1": "All Pro features",
+    "eliteF2": "Personal training sessions",
+    "eliteF3": "Nutrition guidance",
+    "faqEyebrow": "Questions",
+    "faqTitle": "FAQ",
+    "faqQ1": "Is there a contract?",
+    "faqA1": "Memberships run month to month and do not lock you into a long contract. The prices on this page are demonstration figures, so read them as an illustration of the offer rather than a live quote.",
+    "faqQ2": "Can I cancel anytime?",
+    "faqA2": "In a real gym you would cancel at any time with no exit fee and keep access until the end of the month you paid for. This site is a demonstration, so the policy is only described here to show what the page would say.",
+    "faqQ3": "Do I need experience to start training?",
+    "faqA3": "No. Most members start with the fundamentals, and your onboarding session covers the basics before you touch a barbell. If you have trained before, your plan simply begins at a higher level.",
+    "faqQ4": "How many sessions a week should I attend?",
+    "faqA4": "Two to four sessions a week is where most members settle. Consistency matters more than the number: keep roughly the same slots each week and progress the loads slowly, rather than training hard for a few days and then stopping.",
+    "faqQ5": "Is personal training included in every plan?",
+    "faqA5": "No. Personal training is part of the Elite plan. Starter includes full access to the gym floor and the group classes, Pro adds priority booking and nutrition guidance, and a coach can also be booked by the hour with any plan.",
+    "faqQ6": "What should I bring to my first session?",
+    "faqA6": "Training clothes, flat shoes with a grippy sole, a water bottle, and a towel. We provide the equipment, but arrive ten minutes early for the onboarding and a quick tour of the floor.",
+    "faqQ7": "What happens if I miss a few weeks?",
+    "faqA7": "Nothing breaks and nobody chases you. Come back, tell your coach where you stopped, and the plan continues from the sessions you logged. A broken streak is a normal part of training - the goal is to still be training a year from now.",
+    "faqQ8": "When will I see results?",
+    "faqA8": "The first few weeks usually bring better technique and more stamina on the machines. Visible changes in strength and body composition take two to three months of consistent work, and they depend on nutrition and sleep as much as on the sessions themselves.",
+    "compareEyebrow": "Compare",
+    "compareTitle": "Plan Feature Comparison",
+    "featureCol": "Feature",
+    "rowGymFloor": "Gym floor access",
+    "rowClasses": "Group classes",
+    "rowPriority": "Priority booking",
+    "rowPersonal": "Personal training",
+    "rowNutrition": "Nutrition guidance"
+  },
+  "trainersPage": {
+    "eyebrow": "The Team",
+    "title": "Our Trainers",
+    "note": "*Sample trainer profiles until approved",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Search by name or specialty",
+    "specialtyLabel": "Specialty",
+    "allSpecialties": "All specialties",
+    "specStrength": "Strength",
+    "specCardio": "Cardio",
+    "specPowerlifting": "Powerlifting",
+    "specYoga": "Yoga",
+    "clearFilters": "Clear Filters",
+    "empty": "No trainers match your search.",
+    "ctaTitle": "Train With Us",
+    "ctaText": "Ready to work with a coach? Start your membership inquiry today.",
+    "ctaJoin": "Join Now",
+    "ctaContact": "Contact Us",
+    "years": "{n} years",
+    "altSuffix": "coach"
+  },
+  "trainersData": {
+    "alex": {
+      "name": "Ahmed Hassan",
+      "specialty": "Strength",
+      "bio": "Certified strength & conditioning coach with 8+ years experience."
+    },
+    "sarah": {
+      "name": "Mariam Adel",
+      "specialty": "Cardio",
+      "bio": "HIIT and cardio specialist focused on endurance."
+    },
+    "mike": {
+      "name": "Mahmoud Said",
+      "specialty": "Powerlifting",
+      "bio": "Competitive powerlifter and coaching veteran."
+    },
+    "nina": {
+      "name": "Nour El-Sayed",
+      "specialty": "Yoga",
+      "bio": "Yoga and mobility instructor for all levels."
+    },
+    "tom": {
+      "name": "Omar Khaled",
+      "specialty": "Strength",
+      "bio": "Strength coach helping beginners build confidence."
+    },
+    "emma": {
+      "name": "Salma Fathy",
+      "specialty": "Cardio",
+      "bio": "Group class instructor with high-energy sessions."
+    }
+  },
+  "classesPage": {
+    "eyebrow": "Schedule",
+    "title": "Workout Classes",
+    "note": "*Sample schedule data",
+    "typeLabel": "Class Type",
+    "allTypes": "All types",
+    "typeStrength": "Strength Training",
+    "typeHiit": "HIIT",
+    "typeCardio": "Cardio",
+    "typeYoga": "Yoga & Mobility",
+    "typeFunctional": "Functional Training",
+    "dayLabel": "Day",
+    "allDays": "All days",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "levelLabel": "Level",
+    "allLevels": "All levels",
+    "levelBeginner": "Beginner",
+    "levelIntermediate": "Intermediate",
+    "levelAdvanced": "Advanced",
+    "resetFilters": "Reset Filters",
+    "empty": "No classes match your filters.",
+    "ctaTitle": "Interested In a Class?",
+    "ctaText": "Submit a demo inquiry and we will follow up. No booking is made in real time.",
+    "ctaBtn": "Inquire About Joining",
+    "sampleSchedule": "Sample schedule: {schedule}",
+    "duration": "{n} min",
+    "altSuffix": "class"
+  },
+  "classesData": {
+    "strengthBasics": {
+      "name": "Strength Basics",
+      "schedule": "Mon 6:00 PM"
+    },
+    "hiitBlast": {
+      "name": "HIIT Blast",
+      "schedule": "Tue 7:00 AM"
+    },
+    "yogaFlow": {
+      "name": "Yoga Flow",
+      "schedule": "Wed 8:00 AM"
+    },
+    "powerlifting": {
+      "name": "Powerlifting",
+      "schedule": "Thu 6:30 PM"
+    },
+    "cardioKick": {
+      "name": "Cardio Kick",
+      "schedule": "Fri 5:30 PM"
+    },
+    "functionalCircuit": {
+      "name": "Functional Circuit",
+      "schedule": "Sat 9:00 AM"
+    },
+    "mobility": {
+      "name": "Mobility",
+      "schedule": "Sat 11:00 AM"
+    }
+  },
+  "contactPage": {
+    "eyebrow": "Get In Touch",
+    "title": "Contact Us",
+    "note": "Demo form only - no data is sent to a server.",
+    "nameLabel": "Full Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "send": "Send Message",
+    "subjectLabel": "Subject (optional)",
+    "infoTitle": "Contact Information",
+    "infoNote": "We reply to every message within 24 hours.",
+    "address": "Address: Cairo, Egypt",
+    "phone": "Phone: 01068867161",
+    "email": "Email: basmanour103@gmail.com",
+    "hoursTitle": "Opening Hours",
+    "hoursNote": "*Sample hours until verified",
+    "hoursWeekdays": "Monday - Friday: 5:00 AM - 11:00 PM",
+    "hoursSaturday": "Saturday: 7:00 AM - 9:00 PM",
+    "hoursSunday": "Sunday: 8:00 AM - 6:00 PM"
+  },
+  "joinPage": {
+    "eyebrow": "Membership Inquiry",
+    "title": "Join IRON ZONE",
+    "note": "*Demo inquiry form - no data is sent to a server and no membership is activated.",
+    "nameLabel": "Full Name",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "planLabel": "Selected Plan",
+    "planPlaceholder": "Choose a plan",
+    "planStarter": "Starter",
+    "planPro": "Pro",
+    "planElite": "Elite",
+    "goalLabel": "Preferred Training Goal (optional)",
+    "notesLabel": "Additional Notes (optional)",
+    "consent": "I understand this is a demo form and no data is sent.",
+    "submit": "Submit Inquiry"
+  },
+  "form": {
+    "required": "This field is required.",
+    "invalidEmail": "Please enter a valid email address.",
+    "invalidPhone": "Please enter a valid phone number.",
+    "success": "Demo submission successful. This is a front-end only demo - no data was sent to a server and no membership has been activated.",
+    "noPlanNotice": "No plan selected yet. Please choose a plan above or from the Membership page."
+  },
+  "trainerPage": {
+    "back": "Back to trainers",
+    "viewProfile": "View profile",
+    "notFoundTitle": "Trainer not found",
+    "notFoundText": "This trainer profile is unavailable. Browse all our coaches instead.",
+    "notFoundCta": "View all trainers",
+    "ageLabel": "Age",
+    "yearsLabel": "Years of experience",
+    "languagesLabel": "Languages",
+    "langAr": "Arabic",
+    "langEn": "English",
+    "aboutTab": "About",
+    "experienceTab": "Experience",
+    "portfolioTab": "Portfolio",
+    "locationsTab": "Locations",
+    "focusTitle": "Focus areas",
+    "experienceTitle": "Coaching experience",
+    "portfolioTitle": "Achievements & certifications",
+    "locationsTitle": "Where I've trained people",
+    "achievementsHeading": "Achievements",
+    "certificationsHeading": "Certifications",
+    "bookCta": "Book a session",
+    "joinCta": "Join Now",
+    "prev": "Previous trainer",
+    "next": "Next trainer",
+    "yearsValue": "{n}+ years",
+    "ageValue": "{n} yrs",
+    "tablistLabel": "Trainer profile sections",
+    "heroEyebrow": "Personal Trainer"
+  },
+  "profiles": {
+    "alex": {
+      "bio": "Ahmed has spent nearly a decade helping people move better and grow stronger. He blends classic strength training with functional movement, and is known for patient, step-by-step coaching that suits complete beginners and experienced lifters alike.",
+      "focus": [
+        "Strength training",
+        "Functional fitness",
+        "Fat loss",
+        "Injury prevention"
+      ],
+      "experience": [
+        {
+          "role": "Head Strength Coach",
+          "place": "Iron Zone, Cairo",
+          "period": "2021 – Present"
+        },
+        {
+          "role": "Strength & Conditioning Coach",
+          "place": "Gold's Gym, New Cairo",
+          "period": "2018 – 2021"
+        },
+        {
+          "role": "Personal Trainer",
+          "place": "Fitness First, Giza",
+          "period": "2016 – 2018"
+        }
+      ],
+      "achievements": [
+        "Trained more than 300 clients",
+        "National strength competition medalist",
+        "Built Iron Zone's beginner strength program"
+      ],
+      "certifications": [
+        "Certified Strength & Conditioning Specialist (CSCS)",
+        "CPR & First Aid certified"
+      ],
+      "locations": [
+        "Iron Zone – Cairo",
+        "Gold's Gym – New Cairo",
+        "Fitness First – Giza"
+      ]
+    },
+    "sarah": {
+      "bio": "Mariam is a high-energy cardio coach who makes hard sessions feel achievable. Her HIIT classes combine intervals, bodyweight circuits and upbeat music, and she specialises in building endurance for people returning to fitness.",
+      "focus": [
+        "HIIT",
+        "Endurance",
+        "Weight loss",
+        "Group classes"
+      ],
+      "experience": [
+        {
+          "role": "HIIT & Cardio Coach",
+          "place": "Iron Zone, Cairo",
+          "period": "2022 – Present"
+        },
+        {
+          "role": "Group Fitness Instructor",
+          "place": "Fitness Center, Alexandria",
+          "period": "2019 – 2022"
+        },
+        {
+          "role": "Cardio Coach",
+          "place": "Local Sports Club, Tanta",
+          "period": "2018 – 2019"
+        }
+      ],
+      "achievements": [
+        "Led more than 500 group sessions",
+        "Designed corporate wellness programs",
+        "Coached 100+ endurance clients"
+      ],
+      "certifications": [
+        "Certified HIIT Instructor",
+        "Group Fitness Certification",
+        "CPR & First Aid certified"
+      ],
+      "locations": [
+        "Iron Zone – Cairo",
+        "Fitness Center – Alexandria",
+        "Sports Club – Tanta"
+      ]
+    },
+    "mike": {
+      "bio": "Mahmoud is a competitive powerlifter with over a decade on the platform. He coaches the squat, bench and deadlift with precise technique work and smart programming, and has guided dozens of lifters to their first competition.",
+      "focus": [
+        "Powerlifting",
+        "Squat, bench & deadlift technique",
+        "Competition prep",
+        "Strength progression"
+      ],
+      "experience": [
+        {
+          "role": "Powerlifting Coach",
+          "place": "Iron Zone, Cairo",
+          "period": "2019 – Present"
+        },
+        {
+          "role": "Strength Coach",
+          "place": "Elite Gym, Cairo",
+          "period": "2016 – 2019"
+        },
+        {
+          "role": "Assistant Coach",
+          "place": "National Powerlifting Team",
+          "period": "2014 – 2016"
+        }
+      ],
+      "achievements": [
+        "Three-time national powerlifting medalist",
+        "Coached 20+ competitive lifters",
+        "Certified IPL competition coach"
+      ],
+      "certifications": [
+        "IPL Certified Coach",
+        "Advanced Powerlifting Programming",
+        "First Aid certified"
+      ],
+      "locations": [
+        "Iron Zone – Cairo",
+        "Elite Gym – Cairo",
+        "National Training Center – Cairo"
+      ]
+    },
+    "nina": {
+      "bio": "Nour brings calm, focused energy to every session. A 500-hour certified yoga teacher, she helps athletes and desk workers improve mobility, breathing and recovery, with classes that adapt to every level.",
+      "focus": [
+        "Yoga",
+        "Mobility",
+        "Flexibility",
+        "Breathing & recovery"
+      ],
+      "experience": [
+        {
+          "role": "Yoga & Mobility Coach",
+          "place": "Iron Zone, Cairo",
+          "period": "2021 – Present"
+        },
+        {
+          "role": "Yoga Instructor",
+          "place": "Serenity Studio, Cairo",
+          "period": "2018 – 2021"
+        },
+        {
+          "role": "Mobility Specialist",
+          "place": "Wellness Center, Alexandria",
+          "period": "2017 – 2018"
+        }
+      ],
+      "achievements": [
+        "Completed 500-hour yoga teacher training",
+        "Ran mobility workshops for athletes",
+        "Taught 1,000+ group classes"
+      ],
+      "certifications": [
+        "500-hour Yoga Teacher Training (RYT-500)",
+        "Breathwork & Meditation Coach",
+        "Mobility & Recovery Specialist"
+      ],
+      "locations": [
+        "Iron Zone – Cairo",
+        "Serenity Studio – Cairo",
+        "Wellness Center – Alexandria"
+      ]
+    },
+    "tom": {
+      "bio": "Omar focuses on beginners and busy professionals who want simple, sustainable progress. He builds confidence with clear technique, realistic goals and accountability, so training becomes a habit rather than a chore.",
+      "focus": [
+        "Beginner strength",
+        "Muscle building",
+        "Nutrition basics",
+        "Accountability"
+      ],
+      "experience": [
+        {
+          "role": "Strength Coach",
+          "place": "Iron Zone, Cairo",
+          "period": "2023 – Present"
+        },
+        {
+          "role": "Personal Trainer",
+          "place": "Flex Gym, Cairo",
+          "period": "2021 – 2023"
+        },
+        {
+          "role": "Fitness Assistant",
+          "place": "Community Sports Center, Giza",
+          "period": "2020 – 2021"
+        }
+      ],
+      "achievements": [
+        "Coached 150+ beginners",
+        "Runs monthly transformation programs",
+        "Recognised for client retention"
+      ],
+      "certifications": [
+        "Certified Personal Trainer (CPT)",
+        "Nutrition Fundamentals",
+        "CPR & First Aid certified"
+      ],
+      "locations": [
+        "Iron Zone – Cairo",
+        "Flex Gym – Cairo",
+        "Community Sports Center – Giza"
+      ]
+    },
+    "emma": {
+      "bio": "Salma leads some of the most energetic classes at Iron Zone. With a background in boxing fitness and group training, she mixes cardio, core work and conditioning into sessions that are challenging but always fun.",
+      "focus": [
+        "Cardio conditioning",
+        "Boxing fitness",
+        "Group energy",
+        "Core training"
+      ],
+      "experience": [
+        {
+          "role": "Cardio & Boxing Coach",
+          "place": "Iron Zone, Cairo",
+          "period": "2024 – Present"
+        },
+        {
+          "role": "Group Class Instructor",
+          "place": "Pulse Fitness, Cairo",
+          "period": "2022 – 2024"
+        },
+        {
+          "role": "Fitness Coach",
+          "place": "Ladies Fitness Studio, Cairo",
+          "period": "2021 – 2022"
+        }
+      ],
+      "achievements": [
+        "Certified group fitness instructor",
+        "Leads women's cardio bootcamps",
+        "Boxing fitness specialist"
+      ],
+      "certifications": [
+        "Group Fitness Certification",
+        "Boxing Fitness Coach",
+        "CPR & First Aid certified"
+      ],
+      "locations": [
+        "Iron Zone – Cairo",
+        "Pulse Fitness – Cairo",
+        "Ladies Fitness Studio – Cairo"
+      ]
+    }
+  },
+  "wizard": {
+    "eyebrow": "Not Sure?",
+    "title": "Find Your Plan",
+    "note": "Answer four quick questions and we will point you to the plan that fits.",
+    "q1": "1. What is your main goal?",
+    "goalHealth": "General health",
+    "goalHealthHint": "Move better and feel fitter",
+    "goalLose": "Lose weight",
+    "goalLoseHint": "Burn fat and build endurance",
+    "goalBuild": "Build muscle",
+    "goalBuildHint": "Get stronger and more powerful",
+    "goalPerform": "Compete",
+    "goalPerformHint": "Train for a specific sport or event",
+    "q2": "2. How often do you train?",
+    "freqOnce": "Once a week",
+    "freqTwice": "Twice a week",
+    "freqOften": "Three or more times",
+    "q3": "3. How much support do you want?",
+    "supportAlone": "Train on my own",
+    "supportAloneHint": "I know what I am doing",
+    "supportGroup": "Group classes",
+    "supportGroupHint": "Motivation from a group",
+    "supportCoach": "A personal coach",
+    "supportCoachHint": "Someone to correct my form",
+    "q4": "4. Your training experience?",
+    "expNew": "Just starting",
+    "expSome": "Some experience",
+    "expRegular": "Trained regularly",
+    "resultPrefix": "Recommended plan:",
+    "resultBtn": "Choose This Plan",
+    "reasonStarter": "You are starting out and want full access to the gym floor at a low monthly cost.",
+    "reasonPro": "You train regularly and want group classes plus priority booking.",
+    "reasonElite": "You want personal training and nutrition guidance on top of full access."
+  },
+  "schedule": {
+    "eyebrow": "Weekly",
+    "title": "Timetable",
+    "note": "*Sample timetable and capacity figures. Requesting a spot is a demo action - no real booking is made.",
+    "tablistLabel": "Weekly class timetable",
+    "withTrainer": "With {trainer}",
+    "capacity": "{booked} of {capacity} spots taken",
+    "request": "Request a Spot",
+    "requested": "Spot Requested",
+    "full": "Session Full",
+    "noSessions": "No sessions scheduled for this day."
+  },
+  "workoutPage": {
+    "eyebrow": "Training",
+    "title": "Workout Log",
+    "note": "Your entries stay in this browser only - nothing is uploaded or shared.",
+    "formTitle": "Log a session",
+    "exerciseLabel": "Exercise",
+    "dateLabel": "Date",
+    "weightLabel": "Weight (kg)",
+    "repsLabel": "Reps",
+    "setsLabel": "Sets",
+    "addEntry": "Add Entry",
+    "chartTitle": "Progress",
+    "filterLabel": "Exercise",
+    "historyTitle": "Session History",
+    "empty": "No sessions logged yet. Add your first entry above.",
+    "statSessions": "Sessions logged",
+    "statBest": "Best lift",
+    "statVolume": "Total volume",
+    "chartNeedsTwo": "Log at least two sessions of the same exercise to see a progress trend.",
+    "chartLabel": "Weight progress over time for the selected exercise",
+    "remove": "Remove",
+    "removeEntry": "Remove entry for {exercise}",
+    "formError": "Please complete every field with valid values.",
+    "storageUnavailable": "Browser storage is unavailable, so this session will not be saved.",
+    "chooseExercise": "Choose an exercise",
+    "ctaTitle": "Ready For A Coach?",
+    "ctaText": "Bring your log to a session and get a plan built around your actual numbers."
+  }
+}

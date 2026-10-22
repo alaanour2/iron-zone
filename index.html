@@ -1,0 +1,339 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="IRON ZONE - Premium Fitness & Personal Training" data-i18n-content="meta.indexDescription" />
+    <meta name="theme-color" content="#0A0A0A" />
+    <link rel="icon" type="image/png" href="assets/images/logo-256.png" />
+    <title data-i18n="meta.indexTitle">IRON ZONE - Train Hard. Live Strong.</title>
+    <link rel="preload" as="image" href="assets/images/hero-cover.jpg" fetchpriority="high" />
+
+    <script>
+      (function () {
+        try {
+          if (localStorage.getItem('ironzone:theme') === 'light') {
+            document.documentElement.setAttribute('data-theme', 'light');
+          }
+          if (localStorage.getItem('ironzone:lang') === 'ar') {
+            document.documentElement.setAttribute('lang', 'ar');
+            document.documentElement.setAttribute('dir', 'rtl');
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;500;600;700&family=Bebas+Neue&family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link" data-i18n="skip">Skip to main content</a>
+    <header class="header" id="header">
+      <nav class="nav" role="navigation" aria-label="Main navigation" data-i18n-aria-label="nav.mainNav">
+        <div class="nav__container">
+          <a href="index.html" class="nav__logo">IRON ZONE</a>
+          <ul id="navMenu" class="nav__list">
+            <li><a href="index.html" class="nav__link is-active" data-i18n="nav.home">Home</a></li>
+            <li><a href="membership.html" class="nav__link" data-i18n="nav.membership">Membership</a></li>
+            <li><a href="trainers.html" class="nav__link" data-i18n="nav.trainers">Trainers</a></li>
+            <li><a href="classes.html" class="nav__link" data-i18n="nav.classes">Classes</a></li>
+            <li><a href="workout.html" class="nav__link" data-i18n="nav.workoutLog">Workout Log</a></li>
+            <li><a href="contact.html" class="nav__link" data-i18n="nav.contact">Contact</a></li>
+            <li><a href="join.html" class="nav__link btn" data-i18n="nav.joinNow">Join Now</a></li>
+          </ul>
+          <div class="nav__actions">
+            <div class="lang-switch" id="langSwitch" role="group" aria-label="Language" data-i18n-aria-label="controls.langGroupLabel">
+              <button type="button" class="lang-switch__opt is-active" data-lang="en" lang="en" aria-label="English" aria-pressed="true">EN</button>
+              <button type="button" class="lang-switch__opt" data-lang="ar" lang="ar" aria-label="Arabic" aria-pressed="false">ع</button>
+            </div>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch to light theme" aria-pressed="false">
+              <svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+              <svg class="theme-toggle__sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+            </button>
+            <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu" data-i18n-aria-label="nav.toggleMenu"><svg class="nav__toggle__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg><span class="nav__toggle__text" data-i18n="nav.menu">Menu</span></button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="container">
+          <p class="hero__eyebrow" data-i18n="index.heroEyebrow">YOUR STRONGER SELF STARTS HERE</p>
+          <h1 id="heroTitle" class="hero__title" data-i18n="index.heroTitle">PUSH YOUR LIMITS.</h1>
+          <p class="hero__subtitle" data-i18n="index.heroSubtitle">Train with purpose, build strength, and make every session count.</p>
+          <div class="hero__actions">
+            <a href="join.html" class="btn btn--arrow" data-i18n="index.heroJoin">JOIN NOW</a>
+            <a href="membership.html" class="btn btn--ghost" data-i18n="index.heroExplore">EXPLORE MEMBERSHIPS</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="introTitle">
+        <div class="container">
+          <div class="split">
+            <div>
+              <p class="section__eyebrow" data-i18n="index.introEyebrow">Welcome</p>
+              <h2 id="introTitle" class="section__title" data-i18n="index.introTitle">INTRODUCING IRON ZONE</h2>
+              <p class="text--muted" data-i18n="index.introText">IRON ZONE is a premium fitness and personal training facility built around three simple ideas: serious equipment, certified coaches, and a plan for every member. Whether you are setting foot on the gym floor for the first time or chasing a new personal record, the space and the coaching are designed so that every single session counts.</p>
+              <p class="text--muted" data-i18n="index.introText2">The floor covers the full spectrum of strength work: free-weight platforms for barbell lifts, machine circuits for hypertrophy, dedicated cardio and functional zones, and a studio that hosts group classes throughout the week. Equipment is chosen for reliability rather than novelty, so the tools you depend on are always calibrated, maintained, and ready to use.</p>
+              <p class="text--muted" data-i18n="index.introText3">Every membership starts with an onboarding session. A coach reviews your goals, your movement history, and the time you can realistically give each week, then builds a training split you can actually sustain. From that point the plan evolves with your progress - through personal training, small-group classes, or self-directed sessions with our coaches on hand for technique checks and programming questions.</p>
+            </div>
+            <img class="card__media" src="assets/images/about.jpg" alt="Members training on the IRON ZONE gym floor" data-i18n-alt="index.introAlt" width="800" height="600" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" aria-labelledby="benefitsTitle">
+        <div class="container">
+          <p class="section__eyebrow" data-i18n="index.benefitsEyebrow">What We Offer</p>
+          <h2 id="benefitsTitle" class="section__title" data-i18n="index.benefitsTitle">TRAINING BENEFITS</h2>
+          <p class="text--muted" data-i18n="index.benefitsIntro">Training benefits are not a list of miracles. What follows are the results of a well-equipped floor, a plan you can follow, and coaches who tell you the truth about your numbers - measured over months, not weekends.</p>
+          <div class="grid grid--3">
+            <article class="card">
+              <img class="card__media" src="assets/images/benefit-strength.jpg" alt="Athlete lifting weights during a strength session" data-i18n-alt="index.benefit1Alt" width="800" height="600" loading="lazy" />
+              <h3 class="card__title" data-i18n="index.benefit1Title">Strength Training</h3>
+              <p class="text--muted" data-i18n="index.benefit1Text">Progressive barbell and machine work that builds usable strength and adds lean muscle over months rather than weeks. Loads and rep ranges are set to match the level you are actually at today.</p>
+            </article>
+            <article class="card">
+              <img class="card__media" src="assets/images/benefit-coaching.jpg" alt="Personal trainer coaching a member one-on-one" data-i18n-alt="index.benefit2Alt" width="800" height="600" loading="lazy" />
+              <h3 class="card__title" data-i18n="index.benefit2Title">Personal Coaching</h3>
+              <p class="text--muted" data-i18n="index.benefit2Text">One coach, one written plan, and honest correction on the lifts that matter. The hour goes into technique and programme adjustments, not into empty encouragement.</p>
+            </article>
+            <article class="card">
+              <img class="card__media" src="assets/images/benefit-classes.jpg" alt="High-energy group fitness class in progress" data-i18n-alt="index.benefit3Alt" width="800" height="600" loading="lazy" />
+              <h3 class="card__title" data-i18n="index.benefit3Title">Group Classes</h3>
+              <p class="text--muted" data-i18n="index.benefit3Text">Coach-led sessions in a small group. This is often the practical middle ground: the structure of a class, with just enough attention to correct your form as you go.</p>
+            </article>
+            <article class="card">
+              <img class="card__media" src="assets/images/class-cardio.jpg" alt="Member on a cardio machine during a conditioning session" data-i18n-alt="index.benefit4Alt" width="800" height="600" loading="lazy" />
+              <h3 class="card__title" data-i18n="index.benefit4Title">Cardio &amp; Endurance</h3>
+              <p class="text--muted" data-i18n="index.benefit4Text">Steady zone-based cardio and circuit work that builds a base your body can actually hold on to - and that shortens the recovery time between the heavier sessions.</p>
+            </article>
+            <article class="card">
+              <img class="card__media" src="assets/images/class-yoga.jpg" alt="Member stretching on a mat during a mobility class" data-i18n-alt="index.benefit5Alt" width="800" height="600" loading="lazy" />
+              <h3 class="card__title" data-i18n="index.benefit5Title">Mobility &amp; Flexibility</h3>
+              <p class="text--muted" data-i18n="index.benefit5Text">Warm-ups, mobility work, and assisted stretching. Unglamorous, but it is the habit that keeps people training for years instead of months.</p>
+            </article>
+            <article class="card">
+              <img class="card__media" src="assets/images/class-functional.jpg" alt="Member carrying a weight during a functional training circuit" data-i18n-alt="index.benefit6Alt" width="800" height="600" loading="lazy" />
+              <h3 class="card__title" data-i18n="index.benefit6Title">Functional Training</h3>
+              <p class="text--muted" data-i18n="index.benefit6Text">Carrying, pushing, pulling, and rotating with loads that match daily life - the part of fitness that shows up outside the gym, on stairs, with a heavy bag, or after a long day at a desk.</p>
+            </article>
+          </div>
+          <p class="text--muted" data-i18n="index.benefitsNote">Results are easier to keep when you can see them, so every membership comes with a workout log that records your sessions locally in your browser - you and your coach can compare weeks instead of guessing.</p>
+          <div class="hero__actions">
+            <a href="workout.html" class="btn btn--ghost" data-i18n="index.benefitsLogLink">Open Your Workout Log</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="statsTitle">
+        <div class="container">
+          <p class="section__eyebrow" data-i18n="index.statsEyebrow">By The Numbers</p>
+          <h2 id="statsTitle" class="section__title" data-i18n="index.statsTitle">GYM STATS</h2>
+          <p class="text--muted" data-i18n="index.statsNote">*Placeholder statistics until verified</p>
+          <div class="stats">
+            <div class="stat">
+              <span class="stat__number">500+</span>
+              <span class="stat__label" data-i18n="index.stat1Label">Active Members</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">10+</span>
+              <span class="stat__label" data-i18n="index.stat2Label">Expert Trainers</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">15+</span>
+              <span class="stat__label" data-i18n="index.stat3Label">Classes Weekly</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" aria-labelledby="plansTitle">
+        <div class="container">
+          <p class="section__eyebrow" data-i18n="index.plansEyebrow">Membership</p>
+          <h2 id="plansTitle" class="section__title" data-i18n="index.plansTitle">FEATURED MEMBERSHIP PLANS</h2>
+          <div class="grid grid--3">
+            <article class="card">
+              <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4.5" y="3.5" width="15" height="17" rx="1.8"/><path d="M12 3.5v17M9.2 9.5h.01M14.8 9.5h.01M9.2 15h.01M14.8 15h.01"/></svg></span>
+              <h3 class="card__title" data-i18n="index.planStarterName">Starter</h3>
+              <p class="text--muted" data-i18n="index.planStarterText">Perfect for beginners starting their fitness journey.</p>
+              <ul class="card__list">
+                <li data-i18n="index.planStarterF1">Access to gym floor</li>
+                <li data-i18n="index.planStarterF2">Basic equipment</li>
+                <li data-i18n="index.planStarterF3">Locker access</li>
+              </ul>
+              <a href="membership.html" class="btn btn--ghost btn--arrow" data-i18n="common.viewPlans">View Plans</a>
+            </article>
+            <article class="card card--featured">
+              <span class="card__badge" data-i18n="common.mostPopular">Most Popular</span>
+              <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s-7-4.4-9.3-8.6C1.4 9.6 3.2 6 6.6 6c2 0 3.4 1.1 4.2 2.2.4-.5.9-1.1 1.6-1.6"/><path d="M12 21s7-4.4 9.3-8.6c1.3-2.8-.5-6.4-3.9-6.4-1.2 0-2.2.4-3 .9"/><path d="M7 12.5h2.5l1.2-2.2 1.6 3.6 1.2-2.4H16"/></svg></span>
+              <h3 class="card__title" data-i18n="index.planProName">Pro</h3>
+              <p class="text--muted" data-i18n="index.planProText">Ideal for regular gym-goers looking for more benefits.</p>
+              <ul class="card__list">
+                <li data-i18n="index.planProF1">All Starter features</li>
+                <li data-i18n="index.planProF2">Group classes</li>
+                <li data-i18n="index.planProF3">Priority booking</li>
+              </ul>
+              <a href="membership.html" class="btn btn--ghost btn--arrow" data-i18n="common.viewPlans">View Plans</a>
+            </article>
+            <article class="card">
+              <span class="card__icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span>
+              <h3 class="card__title" data-i18n="index.planEliteName">Elite</h3>
+              <p class="text--muted" data-i18n="index.planEliteText">Complete package with personal training included.</p>
+              <ul class="card__list">
+                <li data-i18n="index.planEliteF1">All Pro features</li>
+                <li data-i18n="index.planEliteF2">Personal training sessions</li>
+                <li data-i18n="index.planEliteF3">Nutrition guidance</li>
+              </ul>
+              <a href="membership.html" class="btn btn--ghost btn--arrow" data-i18n="common.viewPlans">View Plans</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="trainersTitle">
+        <div class="container">
+          <p class="section__eyebrow" data-i18n="index.trainersEyebrow">Meet The Team</p>
+          <h2 id="trainersTitle" class="section__title" data-i18n="index.trainersTitle">FEATURED TRAINERS</h2>
+          <div class="grid grid--3">
+            <article class="card card--interactive">
+              <a class="card__link" href="trainer.html?id=alex">
+                <img class="card__media" src="assets/images/trainer-1.jpg" alt="Ahmed Hassan, strength and conditioning coach" data-i18n-alt="index.trainer1Alt" width="600" height="450" loading="lazy" />
+                <h3 class="card__title" data-i18n="index.trainer1Name">Ahmed Hassan</h3>
+                <p class="text--muted" data-i18n="index.trainer1Role">Strength &amp; Conditioning</p>
+                <p class="text--muted" data-i18n="index.trainer1Bio">Certified trainer with 8+ years experience.</p>
+                <span class="card__cta" data-i18n="trainerPage.viewProfile">View profile</span>
+              </a>
+              <a href="trainers.html" class="btn btn--ghost btn--arrow" data-i18n="common.viewAllTrainers">View All Trainers</a>
+            </article>
+            <article class="card card--interactive">
+              <a class="card__link" href="trainer.html?id=sarah">
+                <img class="card__media" src="assets/images/trainer-2.jpg" alt="Mariam Adel, HIIT and cardio coach" data-i18n-alt="index.trainer2Alt" width="600" height="450" loading="lazy" />
+                <h3 class="card__title" data-i18n="index.trainer2Name">Mariam Adel</h3>
+                <p class="text--muted" data-i18n="index.trainer2Role">HIIT &amp; Cardio</p>
+                <p class="text--muted" data-i18n="index.trainer2Bio">Specialized in high-intensity training programs.</p>
+                <span class="card__cta" data-i18n="trainerPage.viewProfile">View profile</span>
+              </a>
+              <a href="trainers.html" class="btn btn--ghost btn--arrow" data-i18n="common.viewAllTrainers">View All Trainers</a>
+            </article>
+            <article class="card card--interactive">
+              <a class="card__link" href="trainer.html?id=mike">
+                <img class="card__media" src="assets/images/trainer-3.jpg" alt="Mahmoud Said, powerlifting coach" data-i18n-alt="index.trainer3Alt" width="600" height="450" loading="lazy" />
+                <h3 class="card__title" data-i18n="index.trainer3Name">Mahmoud Said</h3>
+                <p class="text--muted" data-i18n="index.trainer3Role">Powerlifting</p>
+                <p class="text--muted" data-i18n="index.trainer3Bio">Competitive powerlifter with proven results.</p>
+                <span class="card__cta" data-i18n="trainerPage.viewProfile">View profile</span>
+              </a>
+              <a href="trainers.html" class="btn btn--ghost btn--arrow" data-i18n="common.viewAllTrainers">View All Trainers</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" aria-labelledby="testimonialsTitle">
+        <div class="container">
+          <p class="section__eyebrow" data-i18n="index.testimonialsEyebrow">Success Stories</p>
+          <h2 id="testimonialsTitle" class="section__title" data-i18n="index.testimonialsTitle">WHAT MEMBERS SAY</h2>
+          <p class="text--muted" data-i18n="index.testimonialsNote">*Sample testimonials for demonstration purposes</p>
+          <div class="grid grid--3">
+            <article class="testimonial">
+              <p class="testimonial__rating" aria-label="5 out of 5" data-i18n-aria-label="index.testimonial1Rating" data-i18n="common.fiveStars">★★★★★</p>
+              <blockquote class="testimonial__quote" data-i18n="index.testimonial1Quote">I walked in not knowing a single exercise. The coaches wrote me a plan, and three months later I am lifting more than I expected.</blockquote>
+              <div class="testimonial__footer">
+                <span class="testimonial__avatar" aria-hidden="true">MH</span>
+                <div>
+                  <div class="testimonial__author" data-i18n="index.testimonial1Name">Mona Hassan</div>
+                  <div class="testimonial__meta" data-i18n="index.testimonial1Meta">Pro member since 2024</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial">
+              <p class="testimonial__rating" aria-label="5 out of 5" data-i18n-aria-label="index.testimonial2Rating" data-i18n="common.fiveStars">★★★★★</p>
+              <blockquote class="testimonial__quote" data-i18n="index.testimonial2Quote">The early morning classes changed my whole routine. The timetable is easy to follow and the trainers actually remember your name.</blockquote>
+              <div class="testimonial__footer">
+                <span class="testimonial__avatar" aria-hidden="true">KA</span>
+                <div>
+                  <div class="testimonial__author" data-i18n="index.testimonial2Name">Karim Adel</div>
+                  <div class="testimonial__meta" data-i18n="index.testimonial2Meta">Elite member since 2023</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial">
+              <p class="testimonial__rating" aria-label="5 out of 5" data-i18n-aria-label="index.testimonial3Rating" data-i18n="common.fiveStars">★★★★★</p>
+              <blockquote class="testimonial__quote" data-i18n="index.testimonial3Quote">I started tracking my sessions in the workout log. Seeing the numbers climb is what kept me coming back when motivation dropped.</blockquote>
+              <div class="testimonial__footer">
+                <span class="testimonial__avatar" aria-hidden="true">SN</span>
+                <div>
+                  <div class="testimonial__author" data-i18n="index.testimonial3Name">Salma Nabil</div>
+                  <div class="testimonial__meta" data-i18n="index.testimonial3Meta">Starter member since 2025</div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="ctaTitle">
+        <div class="container">
+          <p class="section__eyebrow" data-i18n="index.ctaEyebrow">Get Started</p>
+          <h2 id="ctaTitle" class="section__title" data-i18n="index.ctaTitle">READY TO START?</h2>
+          <p class="text--muted" data-i18n="index.ctaText">Join IRON ZONE today and take your fitness to the next level.</p>
+          <div class="hero__actions">
+            <a href="join.html" class="btn btn--arrow" data-i18n="index.ctaJoin">JOIN NOW</a>
+            <a href="contact.html" class="btn btn--ghost" data-i18n="index.ctaContact">CONTACT US</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">IRON ZONE</h3>
+            <p class="footer__text" data-i18n="footer.tagline">TRAIN HARD. LIVE STRONG.</p>
+            <p class="footer__text" data-i18n="footer.subtitle">Premium Fitness & Personal Training</p>
+          </div>
+          <div>
+            <h4 class="footer__title" data-i18n="footer.quickLinks">Quick Links</h4>
+            <ul class="footer__links">
+              <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+              <li><a href="membership.html" data-i18n="nav.membership">Membership</a></li>
+              <li><a href="trainers.html" data-i18n="nav.trainers">Trainers</a></li>
+              <li><a href="classes.html" data-i18n="nav.classes">Classes</a></li>
+              <li><a href="workout.html" data-i18n="nav.workoutLog">Workout Log</a></li>
+              <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+              <li><a href="join.html" data-i18n="nav.joinNow">Join Now</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer__title" data-i18n="footer.contact">Contact</h4>
+            <p class="footer__text" data-i18n="footer.location">Location: Cairo, Egypt</p>
+            <p class="footer__text"><a href="tel:+201068867161" data-i18n="footer.phone">Phone: 01068867161</a></p>
+            <p class="footer__text"><a href="mailto:basmanour103@gmail.com" data-i18n="footer.email">Email: basmanour103@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; <span id="year"></span> <span data-i18n="footer.rights">IRON ZONE. All rights reserved.</span></p>
+        </div>
+      </div>
+    </footer>
+
+    <a class="whatsapp-fab" href="https://wa.me/201068867161" target="_blank" rel="noopener noreferrer">
+      <svg class="whatsapp-fab__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+      </svg>
+      <span class="visually-hidden" data-i18n="whatsapp.label">Chat with IRON ZONE on WhatsApp</span>
+    </a>
+
+    <script src="js/main.js"></script>
+    <script src="js/i18n.js"></script>
+  </body>
+</html>
